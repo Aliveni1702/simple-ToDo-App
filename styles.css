@@ -1,0 +1,99 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira sans', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background:linear-gradient(70deg,#13547A, #80D0C7);
+}
+
+.main{
+    width: 70%;
+    min-width: 350px;
+    background:linear-gradient(90deg, #4FACFE, #00F2FE);
+
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color:#13547A;
+    background-image: linear-gradient(to right, pink, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#inputs{
+    padding: 30px 20px;
+    position: relative;
+    display: flex;
+  
+}
+
+
+#taskinp,#add{
+    height: 6vh;
+    width: 70%;
+    border-radius: 5px;
+   
+    padding: 5px;
+    text-align: center;
+   
+    font-weight: bolder;
+    border: none;
+}
+
+
+#add{
+    height: 6vh;
+    width: 15%;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    
+} 
+#para{
+    font-size:large;
+    color: red;
+    margin-top: 0;
+    margin-left: 50px;
+}
+#lists{
+margin-top: 9px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:100%
+
+}
+.task{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    margin-bottom: 9px;
+    border: 2px black;
+   justify-content:space-between;
+    width:60%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+#del{
+    color: red;
+   margin-bottom: 5px;
+    padding:auto;
+   text-align: center;
+   cursor: pointer;
+}
+#del:hover{
+    background-color:#80c8cc;
+    border-radius: 2px;
+    
+}
+
